@@ -1,0 +1,258 @@
+/*
+    Theme Name: Eastern Partnership Youth Forum
+    Version: 1.0
+    Author: Abu Saleh Faysal
+    Author URI: https://abusalehfaysal.github.io/
+*/
+body {
+    font-family: 'AileronRegular';
+}
+
+#firstDive {
+    width: 100px;
+    height: 100px;
+    position: relative;
+}
+
+#infoi {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 450px;
+    z-index: 10;
+}
+
+@media only screen and (max-width: 600px) {
+    .first-section {
+        width: 100%;
+    }
+    #secondDiv > img {
+        width: 100%;
+        height: 500px;
+    }
+    #infoi {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        margin-top: 320px;
+        z-index: 10;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    #infoi {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        margin-top: 200px;
+        z-index: 10;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1366px) {
+    #infoi {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        margin-top: 250px;
+        z-index: 10;
+    }
+}
+
+.rectangle {
+    height: 10px;
+    background-color: #ebb854;
+}
+
+.lightwhite {
+    color: #e5e6e9;
+}
+
+.arrow-right {
+    width: 0;
+    height: 0;
+    border-top: 30px solid transparent;
+    border-bottom: 30px solid transparent;
+
+    border-left: 60px solid #223f77;
+}
+
+.arrow-right-paste {
+    width: 0;
+    height: 0;
+    border-top: 30px solid transparent;
+    border-bottom: 30px solid transparent;
+
+    border-left: 60px solid #5dbbab;
+}
+
+.arrow-right-small {
+    width: 0;
+    height: 0;
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+
+    border-left: 30px solid #feb52f;
+}
+
+.arrow-right-small-red {
+    width: 0;
+    height: 0;
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+
+    border-left: 30px solid #c03039;
+}
+
+.arrow-left {
+    width: 0;
+    height: 0;
+    border-top: 30px solid transparent;
+    border-bottom: 30px solid transparent;
+
+    border-right: 60px solid #c03039;
+}
+
+.arrow-down {
+    width: 0;
+    height: 0;
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+
+    border-top: 60px solid #5dbbab;
+}
+
+.hexagon {
+    position: relative;
+    width: 300px;
+    height: 173.21px;
+    background-color: #64C7CC;
+    margin: 86.60px 0;
+}
+
+.hexagon:before,
+.hexagon:after {
+    content: "";
+    position: absolute;
+    width: 0;
+    border-left: 150px solid transparent;
+    border-right: 150px solid transparent;
+}
+
+.hexagon:before {
+    bottom: 100%;
+    border-bottom: 86.60px solid #64C7CC;
+}
+
+.hexagon:after {
+    top: 100%;
+    width: 0;
+    border-top: 86.60px solid #64C7CC;
+}
+
+#mapRow {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 3400px;
+    z-index: 10;
+}
+
+.text-skyblue {
+    color: #9ab9ed;
+}
+
+.text-darkblue {
+    color: #234074;
+}
+
+.text-blue {
+    color: #4060ca;
+}
+
+.text-spacing {
+    letter-spacing: 7px;
+}
+
+.text-underline {
+    text-decoration: underline;
+}
+
+a {
+    color: #4060ca;
+}
+
+.bg-grey {
+    background-color: #f7f8fa;
+}
+
+.arrow-right-small-paste {
+    width: 0;
+    height: 0;
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+
+    border-left: 30px solid #5ebaab;
+}
+
+.arrow-down-blue {
+    width: 0;
+    height: 0;
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+
+    border-top: 60px solid #93baff;
+}
+
+.arrow-right-md-yellow {
+    width: 0;
+    height: 0;
+    border-top: 30px solid transparent;
+    border-bottom: 30px solid transparent;
+
+    border-left: 60px solid #fbb62d;
+}
+
+.arrow-up {
+    width: 0; 
+    height: 0; 
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    
+    border-bottom: 30px solid black;
+}
+
+.arrow-left-small-paste {
+    width: 0;
+    height: 0;
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+
+    border-right: 30px solid #5ebaab;
+}
+
+.text-darkgrey {
+    color: #444446;
+}
+
+.text-lightgrey {
+    color: #8c8c8e;
+}
+
+.blue {
+    color: #325de9;
+}
+
+.second-section {
+    margin-top: 150px;
+}
